@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  resources :school_classes, only: [:create, :new, :index, :edit]
+  resources :students, only: [:create, :new, :index, :edit]
+
+  get '/school_class/:id', to: 'school_classes#show', as: 'school_class'
+  get '/student/:id', to: 'students#show', as: 'student'
+  patch 'school_class/:id', to: 'school_classes#update'
+  patch 'student/:id', to: 'students#update'
+end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -53,4 +61,3 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
