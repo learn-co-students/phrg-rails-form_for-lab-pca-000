@@ -7,7 +7,6 @@
 3. Mass assign form data to `ActiveRecord` instances on `new` and `edit`
 4. Build RESTFul actions for `new`, `create`, `edit`, and `update`, with the correct routes and route helper urls.
 
-
 ## Instructions
 
 For this lab you will be extending the functionality of the Flatiron school's student management application by building in the functionality to create and edit school classes. You will build all of the functionality from scratch, including building out the models, views, and controllers for the `SchoolClass` and `Student` resources.
@@ -43,5 +42,3 @@ If you run into issues drawing the routes, inspect element on the forms to see w
 ## Does this need an update?
 
 Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-rails-form_for-lab/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-rails-form_for-lab/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
-
-<p data-visibility='hidden'>PHRG `form_for` Lab</p>
